@@ -23,3 +23,4 @@ Pipenv
 12/02/2019 15:03 - Initial README.md setup
 12/02/2019 16:20 - Program prints the restaurant menu, accept users input and return the rewuired outpur
 12/02/2019 16:44 - Added more menu items, program returns different output depends on the single or plural orders items. *Added feature to make user's input not case sensitive
+12/02/2019 17:10 - Comments updated
