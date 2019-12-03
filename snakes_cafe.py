@@ -1,4 +1,4 @@
-print(' ************************************** \n **    Welcome to the Snakes Cafe!   ** \n **    Please see our menu below.    ** \n ** \n ** To quit at any time, type "quit" ** \n **************************************\n')
+print('\n \n ************************************** \n **    Welcome to the Snakes Cafe!   ** \n **    Please see our menu below.    ** \n ** \n ** To quit at any time, type "quit" ** \n **************************************\n')
 
 menu = {
   'Appetizers': {'Wings': 0, 'Cookies': 0, 'Spring Rolls': 0},
@@ -25,15 +25,15 @@ while answer != 'Quit':
       menu[key][answer]+= 1
 
       if menu[key][answer] == 1:
-        print(f'{menu[key][answer]} order of {answer} has been added to your meal')
+        print(f'** {menu[key][answer]} order of {answer} has been added to your meal **')
         break
 
       else:
-        print(f'{menu[key][answer]} orders of {answer} have been added to your meal')
+        print(f'** {menu[key][answer]} orders of {answer} have been added to your meal **')
         break
   
   else:
-    print('Sorry this item is unavailable, please order item from our menu')
+    print('** Sorry this item is unavailable, please order item from our menu **')
 
   answer = input().lower().capitalize()
 
